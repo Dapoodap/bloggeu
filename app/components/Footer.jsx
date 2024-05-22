@@ -6,7 +6,7 @@ import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from '
 
 const Footer = () => {
   return (
-    <div className='max-h-fit w-full bg-[#161515] px-8 py-10'>
+    <div className='max-h-fit w-full bg-[#161515] px-8 py-10 mt-5'>
       <div className='flex flex-wrap items-center justify-center w-full gap-10'>
         <div className="flex flex-col max-w-full gap-4 first_col">
         <Image src={logo} width={logo}/>

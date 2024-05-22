@@ -28,10 +28,10 @@ export default function Navbar() {
 
       {/* Navbar Links */}
       <div className={`md:flex items-center gap-3 sm:w-fit w-full ${isOpen ? 'flex flex-col mt-3' : 'hidden'}`}>
-        <Link className='px-3 py-1 text-lg border-black hover:border-b-2' href='#'>
+        <Link hre className='px-3 py-1 text-lg border-black hover:border-b-2' href='/'>
           Home
         </Link>
-        <Link className='px-3 py-1 text-lg border-black hover:border-b-2' href='#'>
+        <Link className='px-3 py-1 text-lg border-black hover:border-b-2' href='/blog/1'>
           Popular
         </Link>
         <Link className='px-3 py-1 text-lg border-black hover:border-b-2' href='#'>
